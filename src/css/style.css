@@ -190,6 +190,7 @@ header {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 100vh;
 }
 
@@ -361,8 +362,47 @@ header {
   width: 100%;
   height: auto;
   margin-bottom: 15px;
+  filter: saturate(0.7);
 }
 
 .city-feature {
   margin-bottom: 10px;
+}
+
+/* ---------------------------------------- */
+/* TESTIMONIALS */
+/* ---------------------------------------- */
+
+.testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77)),
+    url(img/back-customers.jpg);
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+}
+
+.quote {
+  font-size: 150%;
+  font-style: italic;
+}
+
+blockquote {
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
+  position: relative;
+  margin-top: 40px;
+}
+
+cite {
+  font-size: 90%;
+  margin-top: 25px;
+  display: block;
+}
+
+cite img {
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
 }
