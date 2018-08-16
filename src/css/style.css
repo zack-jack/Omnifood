@@ -307,7 +307,7 @@ header {
 }
 
 .meal-photo img {
-  opacity: 0.7;
+  opacity: 0.6;
   width: 100%;
   height: auto;
   transform: scale(1.03);
@@ -315,8 +315,8 @@ header {
 
 .meal-photo img:hover {
   opacity: 1;
-  transform: scale(1.11);
-  transition: transform 0.6s, opacity 0.6s;
+  transform: scale(1.08);
+  transition: transform 0.7s, opacity 0.7s;
 }
 
 /* ---------------------------------------- */
