@@ -300,6 +300,7 @@ header {
   left: 0;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.97);
+  -webkit-box-shadow: 0 1px 10px #d9d9d9;
   box-shadow: 0 1px 10px #d9d9d9;
   z-index: 999;
 }
@@ -585,6 +586,10 @@ textarea {
   border: 1px solid #ccc;
 }
 
+.option-choice {
+  color: #555;
+}
+
 textarea {
   height: 100px;
 }
@@ -651,4 +656,27 @@ footer p {
   text-align: center;
   font-size: 80%;
   margin-top: 30px;
+}
+
+/* ---------------------------------------- */
+/* ANIMATIONS */
+/* ---------------------------------------- */
+
+.js--waypoint-1,
+.js--waypoint-2,
+.js--waypoint-3 {
+  opacity: 0;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+.js-waypoint-4 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+.js--waypoint-1.animated,
+.js--waypoint-2.animated,
+.js--waypoint-3.animated {
+  opacity: 1;
 }

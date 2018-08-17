@@ -55,7 +55,6 @@ $(document).ready(function() {
             1000,
             function() {
               // Callback after animation
-              // Must change focus!
               var $target = $(target);
               $target.focus();
               if ($target.is(":focus")) {
@@ -70,4 +69,38 @@ $(document).ready(function() {
         }
       }
     });
+
+  /* Animations on scroll */
+  $(".js--waypoint-1").waypoint(
+    function(direction) {
+      $(".js--waypoint-1").addClass("animated fadeIn");
+    },
+    {
+      offset: "85%"
+    }
+  );
+  $(".js--waypoint-2").waypoint(
+    function(direction) {
+      $(".js--waypoint-2").addClass("animated fadeInUp");
+    },
+    {
+      offset: "55%"
+    }
+  );
+  $(".js--waypoint-3").waypoint(
+    function(direction) {
+      $(".js--waypoint-3").addClass("animated fadeIn");
+    },
+    {
+      offset: "65%"
+    }
+  );
+  $(".js--waypoint-4").waypoint(
+    function(direction) {
+      $(".js--waypoint-4").addClass("animated pulse");
+    },
+    {
+      offset: "40%"
+    }
+  );
 });
