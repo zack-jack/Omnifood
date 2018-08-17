@@ -19,5 +19,21 @@ gulp.task("default", ["serve"], function() {
       browserSync.reload(file.path);
     }
   });
+  gulp.watch("vendors/css/*.css", function(file) {
+    if (file.type === "changed") {
+      browserSync.reload(file.path);
+    }
+  });
+  gulp.watch("src/scripts/*.css", function(file) {
+    if (file.type === "changed") {
+      browserSync.reload(file.path);
+    }
+  });
+  gulp.watch("vendors/scripts/*.css", function(file) {
+    if (file.type === "changed") {
+      browserSync.reload(file.path);
+    }
+  });
+
   gulp.watch("*.html", ["bs-reload"]);
 });
