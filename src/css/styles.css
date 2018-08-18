@@ -445,10 +445,10 @@ header {
   margin-right: 25px;
 }
 
-.btn-app: link,
-.btn-app: visited,
-.btn-app: hover,
-.btn-app: active {
+.btn-app:link,
+.btn-app:visited,
+.btn-app:hover,
+.btn-app:active {
   border: 1px solid transparent;
 }
 
