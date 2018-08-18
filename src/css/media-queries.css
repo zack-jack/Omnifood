@@ -1,7 +1,11 @@
-/* iPad landscape to small computer screens from 1024px to 1023px */
+/* iPad landscape to small computer screens from 1024px to 1200px */
 @media only screen and (max-width: 1200px) {
   .main-nav li:last-child {
     margin-right: 20px;
+  }
+
+  .mobile-nav-icon {
+    display: none;
   }
 
   .hero-text-box {
@@ -22,6 +26,10 @@
 
   section {
     padding: 60px 0;
+  }
+
+  .mobile-nav-icon {
+    display: none;
   }
 
   .main-nav li {

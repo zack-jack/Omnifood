@@ -305,6 +305,10 @@ header {
   color: #fff;
 }
 
+.mobile-nav-icon {
+  display: none;
+}
+
 /* Sticky nav */
 .sticky {
   position: fixed;
